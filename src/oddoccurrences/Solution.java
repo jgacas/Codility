@@ -3,7 +3,7 @@ package oddoccurrences;
 /**
  * Find value that occurs in odd number of elements.
  * 
- * @author juga
+ * @author jgacas
  *
  */
 public class Solution {
