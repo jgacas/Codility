@@ -4,6 +4,12 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+/**
+ * Tests for the solution of odd occurrences in array problem.
+ * 
+ * @author jgacas
+ *
+ */
 public class SolutionTest {
 
     @Test
