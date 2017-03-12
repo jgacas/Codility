@@ -1,14 +1,14 @@
-package tapeequilibrium;
+package io.github.jgacas.codility.lesson3;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class SolutionTest {
+public class TapeEquilibriumTest {
 
     @Test
     public void test() {
-        Solution tapeEquilibrium = new Solution();
+        TapeEquilibrium tapeEquilibrium = new TapeEquilibrium();
         
         int[] A = {3, 1, 2, 4, 3};
         

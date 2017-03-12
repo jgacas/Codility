@@ -1,4 +1,4 @@
-package frogjump;
+package io.github.jgacas.codility.lesson3;
 
 import static org.junit.Assert.*;
 
@@ -10,11 +10,11 @@ import org.junit.Test;
  * @author jgacas
  *
  */
-public class SolutionTest {
+public class FrogJumpTest {
 
     @Test
     public void test() {
-        Solution frogJumps = new Solution();
+        FrogJump frogJumps = new FrogJump();
         
         int X = 10; // start position
         int Y = 85; // finish position

@@ -1,22 +1,21 @@
-package binarygap;
+package io.github.jgacas.codility.lesson1;
 
 /**
  * Find longest sequence of zeros in binary representation of an integer.
- * 
- * Number 9 has binary representation 1001 and contains a binary gap of length 2. 
- * The number 529 has binary representation 1000010001 and contains two binary gaps: 
- * one of length 4 and one of length 3. 
+ *
+ * Number 9 has binary representation 1001 and contains a binary gap of length 2.
+ * The number 529 has binary representation 1000010001 and contains two binary gaps:
+ * one of length 4 and one of length 3.
  * The number 20 has binary representation 10100 and contains one binary gap of length 1.
- * 
+ *
  * Expected worst-case time complexity is O(log(N));
  * Expected worst-case space complexity is O(1).
- * 
- * @author jgacas
  *
+ * @author jgacas
  */
-public class Solution {
+public class BinaryGap {
     /**
-     * Solution to finding longest sequence of zeros in binary representation of an integer.
+     * OddOccurrencesInArray to finding longest sequence of zeros in binary representation of an integer.
      * @param N integer number
      * @return longest sequence of zeros in binary representation.
      */

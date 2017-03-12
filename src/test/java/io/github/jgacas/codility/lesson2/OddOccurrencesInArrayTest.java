@@ -1,20 +1,20 @@
-package oddoccurrences;
+package io.github.jgacas.codility.lesson2;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
 /**
- * Tests for the solution of odd occurrences in array problem.
+ * Tests for the OddOccurrencesInArray of odd occurrences in array problem.
  * 
  * @author jgacas
  *
  */
-public class SolutionTest {
+public class OddOccurrencesInArrayTest {
 
     @Test
     public void testSolutionWhenFirstElementIsOddOccurrence() {
-        Solution oddOccurrences = new Solution();
+        OddOccurrencesInArray oddOccurrences = new OddOccurrencesInArray();
 
         int input[] = { 3, 9, 5, 9, 5 };
         assertEquals(3, oddOccurrences.solution(input, input.length));
@@ -22,7 +22,7 @@ public class SolutionTest {
 
     @Test
     public void testSolutionWhenSecondElementIsOddOccurrence() {
-        Solution oddOccurrences = new Solution();
+        OddOccurrencesInArray oddOccurrences = new OddOccurrencesInArray();
 
         int input[] = { 9, 3, 9 };
         assertEquals(3, oddOccurrences.solution(input, input.length));
@@ -30,7 +30,7 @@ public class SolutionTest {
 
     @Test
     public void testSolutionWhenElementBeforeLastOneIsOddOccurrence() {
-        Solution oddOccurrences = new Solution();
+        OddOccurrencesInArray oddOccurrences = new OddOccurrencesInArray();
 
         int input[] = { 9, 3, 9, 3, 9, 7, 9 };
         assertEquals(7, oddOccurrences.solution(input, input.length));
@@ -38,8 +38,8 @@ public class SolutionTest {
     }
 
     @Test
-    public void testSoultionWhenLastElementIsOddOccurrence() {
-        Solution oddOccurrences = new Solution();
+    public void testSolutionWhenLastElementIsOddOccurrence() {
+        OddOccurrencesInArray oddOccurrences = new OddOccurrencesInArray();
 
         int input[] = { 9, 3, 9, 3, 5 };
         assertEquals(5, oddOccurrences.solution(input, input.length));

@@ -1,4 +1,4 @@
-package permmissingelem;
+package io.github.jgacas.codility.lesson3;
 
 import static org.junit.Assert.*;
 
@@ -10,11 +10,11 @@ import org.junit.Test;
  * @author jgacas
  *
  */
-public class SolutionTest {
+public class PermMissingElementTest {
 
     @Test
     public void test() {
-        Solution permutationMissingElemenet = new Solution();
+        PermMissingElement permutationMissingElemenet = new PermMissingElement();
         
         int[] A = {2,3,1,5};
         

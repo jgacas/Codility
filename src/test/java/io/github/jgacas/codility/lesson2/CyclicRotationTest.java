@@ -1,4 +1,4 @@
-package cyclicrotation;
+package io.github.jgacas.codility.lesson2;
 
 import static org.junit.Assert.*;
 
@@ -10,11 +10,11 @@ import org.junit.Test;
  * @author jgacas
  *
  */
-public class SolutionTest {
+public class CyclicRotationTest {
 
     @Test
     public void testSolutionWhenRotatedThreeTimes() {
-        Solution cyclicRotation = new Solution();
+        CyclicRotation cyclicRotation = new CyclicRotation();
         
         int[] A = {3, 8, 9, 7, 6};
         int K = 3;
@@ -25,7 +25,7 @@ public class SolutionTest {
     
     @Test
     public void testSolutionWhenRotatedTenTimes() {
-        Solution cyclicRotation = new Solution();
+        CyclicRotation cyclicRotation = new CyclicRotation();
         
         int[] A = {3, 8, 9, 7, 6};
         int K = 10;

@@ -1,4 +1,4 @@
-package oddoccurrences;
+package io.github.jgacas.codility.lesson2;
 
 /**
  * Find value that occurs in odd number of elements.
@@ -17,12 +17,12 @@ package oddoccurrences;
  * @author jgacas
  *
  */
-public class Solution {
+public class OddOccurrencesInArray {
     /**
-     * Solution to finding odd occurrence of array value.
+     * OddOccurrencesInArray to finding odd occurrence of array value.
      * @param A array of integers
      * @param N array size
-     * @return
+     * @return Value of odd occurrence in array
      */
     public int solution(int A[], int N) {
         int i;

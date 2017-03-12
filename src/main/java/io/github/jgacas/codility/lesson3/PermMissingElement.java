@@ -1,4 +1,4 @@
-package permmissingelem;
+package io.github.jgacas.codility.lesson3;
 
 /**
  * Find the missing element in a given permutation.
@@ -13,9 +13,9 @@ package permmissingelem;
  * @author jgacas
  *
  */
-public class Solution {
+public class PermMissingElement {
     /**
-     * Solution to problem of finding missing element in a given permutation.
+     * OddOccurrencesInArray to problem of finding missing element in a given permutation.
      * 
      * @param A A zero-indexed array A consisting of N different integers
      * @return Missing element in a given permutation

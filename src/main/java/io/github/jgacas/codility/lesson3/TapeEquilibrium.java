@@ -1,4 +1,4 @@
-package tapeequilibrium;
+package io.github.jgacas.codility.lesson3;
 
 /**
  * Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])|.
@@ -14,9 +14,9 @@ package tapeequilibrium;
  * @author jgacas
  *
  */
-public class Solution {
+public class TapeEquilibrium {
     /**
-     * Solution to tape equilibrium problem.
+     * OddOccurrencesInArray to tape equilibrium problem.
      * @param A Zero-indexed array A consisting of N integers.
      * @return Minimum difference if split parts.
      */

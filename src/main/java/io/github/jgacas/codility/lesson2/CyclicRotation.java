@@ -1,4 +1,4 @@
-package cyclicrotation;
+package io.github.jgacas.codility.lesson2;
 
 /**
  * Rotate an array to the right by a given number of steps.
@@ -13,9 +13,9 @@ package cyclicrotation;
  * 
  * @author jgacas
  */
-public class Solution {
+public class CyclicRotation {
     /**
-     * Solution to the array rotation.
+     * OddOccurrencesInArray to the array rotation.
      * @param A array of integers
      * @param K number of rotating steps
      * @return rotated array

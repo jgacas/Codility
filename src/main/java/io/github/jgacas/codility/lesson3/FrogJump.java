@@ -1,4 +1,4 @@
-package frogjump;
+package io.github.jgacas.codility.lesson3;
 
 /**
  * Frog jumps problem.
@@ -12,9 +12,9 @@ package frogjump;
  * @author jgacas
  *
  */
-public class Solution {
+public class FrogJump {
     /**
-     * Solution to the minimal number of jumps between two positions problem.
+     * OddOccurrencesInArray to the minimal number of jumps between two positions problem.
      * @param X Start position
      * @param Y Finish position
      * @param D Fixed jump distance
